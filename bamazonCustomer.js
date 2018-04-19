@@ -21,7 +21,14 @@ function bamazonInquiry() {
 
     for (i = 0; i < res.length; i++) {
       console.log(
-        "ID: " + res[i].item_id + " " + res[i].product_name + " " + res[i].price
+        "ID: " +
+          res[i].item_id +
+          " NAME: " +
+          res[i].product_name +
+          " PRICE: $" +
+          res[i].price +
+          " STOCK: " +
+          res[i].stock_quantity
       );
     }
     inquirer
