@@ -10,31 +10,31 @@ CREATE TABLE products
   department_name VARCHAR
     (100) NOT NULL,
   price DECIMAL
-    (10,2) INT NOT NULL,
+    (10,2) NOT NULL,
   stock_quantity INT
-    (100) NOT NOT NULL,
+    (100) NOT NULL,
   PRIMARY KEY
     (item_id)
 );
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("T-shirt", "Clothing", 20, 25);
+        ("T-shirt", "Clothing", 20.00, 25);
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Cat Picture - limited edition", "Art", 1000, 4);
+        ("Cat Picture - limited edition", "Art", 1000.00, 4);
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Cat Picture - standard", "Art", 15, 98);
+        ("Cat Picture - standard", "Art", 15.00, 98);
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Dog Playtime", "Service", 25, 3);
+        ("Dog Playtime", "Service", 25.00, 3);
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Good Cheese", "Food", 99, 30);
+        ("Good Cheese", "Food", 99.97, 30);
     SELECT *
     FROM products;
