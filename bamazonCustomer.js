@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 
 connection.connect(function(err) {
   if (err) throw err;
-  console.log("Connection ID: " + connection.threadID);
+  console.log();
   bamazonInquiry();
 });
 
