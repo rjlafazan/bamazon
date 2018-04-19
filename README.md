@@ -9,7 +9,7 @@ Product choice and quantity flow:
 Continue or discontinue shopping:
 ![continue shopping](/images/ContinueShopping.png)
 
-If iventory is too low:
+If inventory is too low:
 ![inventory low](/images/InventoryLow.png)
 
 Tired of shopping:
