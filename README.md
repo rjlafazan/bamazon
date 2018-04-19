@@ -1,16 +1,16 @@
 # bamazon
 
-Bamazon app flow image 1:
+Bamazon initiate with node bamazonCustomer.js to display products:
 ![initiate bamazon app](images/InitiateBamazon.png)
 
-Bamazon app flow image 2:
+Product choice and quantity flow:
 ![product choice](./images/ChooseProduct.png)
 
-Bamazon app flow image 3:
+Continue or discontinue shopping:
 ![continue shopping](/images/ContinueShopping.png)
 
-Bamazon app flow image 4:
+If iventory is too low:
 ![inventory low](/images/InventoryLow.png)
 
-Bamazon app flow image 5:
+Tired of shopping:
 ![end shopping](/images/EndShopping.png)
